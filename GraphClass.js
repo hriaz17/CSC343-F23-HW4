@@ -8,10 +8,11 @@ export default class GraphClass {
     }
     // your code to compute statistics from previous Homeworks
 
-    // Problem 3) Compute Average Shortest Path Length (APL)
-    computeAPL() {
-
-    }
-
-    
+    /*
+      Problem 6) Compute the 'De Niro' number for each vertex in the graph and 
+      store it as an attribute of the graph
+    */
+      computeDeNiroNumber() {
+        
+      }
 }

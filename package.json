@@ -1,7 +1,7 @@
 {
-  "name": "CSC343-F23-HW4",
+  "name": "CSC343-F23-HW6",
   "version": "1.0.0",
-  "description": "CSC 343 Human Computer Interaction: Assignment 4 taught by Stephen Kobourov, Haris Riaz, Aayush Pinto & Jacob Miller at the University of Arizona, Fall 2023",
+  "description": "CSC 343 Human Computer Interaction: Assignment 6 taught by Stephen Kobourov, Haris Riaz, Aayush Pinto & Jacob Miller at the University of Arizona, Fall 2023",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/hriaz17/CSC343-F23-HW4"
+      "url": "https://github.com/hriaz17/CSC343-F23-HW6"
   },
   "keywords": [
       "graph",

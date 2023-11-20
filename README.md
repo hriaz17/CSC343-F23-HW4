@@ -1,8 +1,8 @@
-# CSC-343-HW4
+# CSC-343-HW6
 
 ## Prerequisites
 
-Welcome to the repository for CSC 343 Homework 4! 
+Welcome to the repository for CSC 343 Homework 6! 
 
 This README will guide you through setting up the project and getting the graph visualization running in your local browser.
 **Make sure to read the instructions here thoroughly from start to end before writing any code**.
@@ -14,7 +14,7 @@ This README will guide you through setting up the project and getting the graph 
     - Name your `<branch>` as `yourlastname_yourfirstname_dev` (**very important , do NOT name it anything else**)
     - Clone this repository to your local machine with a command similar to:
     - ```bash
-      git clone -b <branch> https://github.com/CSC343-HCI-F23/csc343-f23-hw4-<your-username>.git
+      git clone -b <branch> https://github.com/CSC343-HCI-F23/csc343-f23-hw6-<your-username>.git
       ```
       where `<your-username>` is your GitHub username.
    
@@ -46,11 +46,10 @@ This README will guide you through setting up the project and getting the graph 
    into this data structure.
 2. **Render the Graph**:
    
-   Implement the main rendering functionality (and all associated functionality to support interactions with the visualization) in the file `index.js` which imports the `GraphClass`. The starter function definitions for `loadAndRenderGraph()`, `renderGraph(graphData)` and `displayGraphStatistics(graphObj)` are the same as those which were given in Homework 2 & Homework 3. You are expected to swap in your `index.js` file from Homework 3, and to modify/add new methods to support the visualization functionality required in Homework 4. If you plan to build on top of the official solution for Homework 3, the file `graphview.js` is also required. 
+   Implement the main rendering functionality (and all associated functionality to support interactions with the visualization) in the file `index.js` which imports the `GraphClass`. The starter function definitions for `loadAndRenderGraph()`, `renderGraph(graphData)` and `displayGraphStatistics(graphObj)` are the same as those which were given in Homework 2, Homework 3 & Homework 4. You are expected to swap in your `index.js` file from Homework 4, and to modify/add new methods to support the visualization functionality required in Homework 6. If you plan to build on top of the official solution for Homework 4, the file `graphview.js` is also required. 
 
 3. **Use the provided JSON file for movie posters**:
-   A JSON file `movie-img_links.json` is provided as part of this repository which contains corrected URL's for movie poster images, which you will need for problem (2).
-
+   A JSON file `movie-img_links.json` is provided as part of this repository which contains corrected URL's for movie poster images.
 
 4. **Compute Graph Statistics**:
    
@@ -63,14 +62,14 @@ This README will guide you through setting up the project and getting the graph 
 
 5. **Test your code**:
    
-    A unit Test for APL has been provided for you in the `./tests.js` file.
-    To run the provided test, just type/run  ``npm test`` from command line from the root of the repository. The test is to verify the correct implementation of problems (3).
+    A unit Test for the 'De Niro' number has been provided to you in the `./tests.js` file.
+    To run the provided test, just type/run  ``npm test`` from command line from the root of the repository. The test is to verify the correct implementation of problem (6).
 
     If your code passes the test cases, you will see output like:
     ```
       GraphClass
-         #computeAPL()
-         ✔ should compute the correct Average Shortest Path Length (APL) for the dummy graph data
+         #computeDeNiroNumber()
+            ✔ should compute the correct 'De Niro' number for the each vertex in the dummy graph data
 
       1 passing (2ms)
     ```
@@ -80,8 +79,8 @@ This README will guide you through setting up the project and getting the graph 
 
 1. **Study the provided HTML file**:
   
-   Just like Homework 2 and Homework 3, the project includes an HTML file `index.html`, pre-configured with some starter metadata, elements and styles,
-   to assist you in displaying your graph visualization. We provide some helpful div's with `id`'s and `class` names that should be self-explanatory. You are expected to swap in your `index.html` from Homework 3, and to add any additional modifications needed to support the functionality of Homework 4.
+   Just like Homework 2, Homework 3 and Homework 4, the project includes an HTML file `index.html`, pre-configured with some starter metadata, elements and styles,
+   to assist you in displaying your graph visualization. We provide some helpful div's with `id`'s and `class` names that should be self-explanatory. You are expected to swap in your `index.html` from Homework 4, and to add any additional modifications needed to support the functionality of Homework 6.
    Feel free to re-structure, and restyle this HTML file (including changing div/class names) to suit your needs. **`index.html` will be the webpage on which your graph is rendered**.
 3. **Start the HTTP Server**:
    
